@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon/icon.ico" type="imagen/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family-Electrolize&display-swap">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>
+            Conoce las Etiquetas Básicas de HTML, atributos y valores.
+        </h1>
+    </header>
+
+    <nav class="navegacion">
+        <ul class="logo">
+            <li><a href="">WebCode</a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="submenu">
+                    <li><a href="tema1.html">Etiquetas HTML</a></li>
+                    <li><a href="tema2.html">Atributos </a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Recursos Digitales</a>
+                <ul class="submenu">
+                    <li><a href="recurso1.html">Recurso 1</a></li>
+                    <li><a href="recurso2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Aprendizaje</a>
+                <ul class="submenu">
+                    <li><a href="aprendizaje1.html">Actividad 1</a></li>
+                    <li><a href="aprendizaje2.html">Actividad 2</a></li>
+                </ul>
+            </li>
+
+            <li><a href="acercade.html">Acerca..</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor">
+
+        <section class="contenido_lateral">
+            <a class="twitter-timeline" data-width="350" data-height="5000"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+
+        <section class="contenido_principal">
+            <article>
+
+                <br>
+                <h2>Etiquetas Básicas de HTML.</h2>
+                </br>
+
+                <p>
+                    Las etiquetas HTML son fragmentos de código que permiten crear elementos HTML, estructuras
+                    básicas del
+                    lenguaje de programación HTML en el que se escriben las páginas web porque es el que entienden
+                    los
+                    navegadores.
+                    El formato de una etiqueta HTML es un bloque de texto encerrado entre corchetes angulares <>, y
+                        cada
+                        elemento HTML tiene una etiqueta de inicio del tipo <etiqueta> y suele terminar con una
+                            etiqueta de
+                            cierre que lleva una barra inclinada al principio </etiqueta>.
+                        Por ejemplo, podemos mostrar un texto en negrita colocándolo entre las etiquetas &lt;b&gt; y
+                        &lt;/b&gt;,
+                        el código HTML &lt;b&gt;colocar el texto en negrita</b> &lt;/b&gt; muestra el siguiente
+                        resultado:
+                        <b>colocar el texto en negrita.</b>
+                </p>
+
+                <div class="img-container">
+                    <br>
+                    <img src="img/img_1.jpg" height="300" width="600"
+                        alt="Esta imagen hace referencia a las etiquetas html"> <br>
+                        <b>etiquetas html</b>
+                        
+                </div>
+                <br>
+
+                <br>
+                <h2>Lista de etiquetas HTML.</h2>
+                </br>
+
+                <br>
+                La siguiente, es una lista que relaciona las etiquetas utilizadas en elementos de HTML5.
+                </br>
+
+                <br>
+                <h4>Elemento raíz:</h4>
+                </br>
+
+                <ul>
+                    <li>&lt;!doctype html&gt; Define que el documento esta bajo el estandar de HTML 5 <br></li>
+                    <li>&lt;html&gt; Representa la raíz de un documento HTML o XHTML y le indica al navegador
+                        que lo
+                        que
+                        viene a continuación debe ser interpretado como código HTML <br></li>
+
+                </ul>
+
+                <br>
+                <h4>Metadatos del documento:</h4>
+                </br>
+
+                <ul>
+                    <li>&lt;head&gt; Cabecera del documento HTML. Representa una colección de metadatos acerca
+                        del
+                        documento, incluyendo enlaces y definiciones de scripts y hojas de estilo. <br></li>
+                    <li>&lt;title&gt; Define el título del documento, que se muestra en la barra de título del
+                        navegador o
+                        en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta
+                        contenida no
+                        será interpretada. <br></li>
+                    <li>&lt;base&gt; Define la URL base para las URLs relativas en la página. <br></li>
+                    <li>&lt;link&gt; Usada para enlazar JavaScript y CSS externos con el documento HTML actual.
+                        <br>
+                    </li>
+                    <li> &lt;meta&gt; Define los metadatos que no pueden ser definidos usando otro elemento
+                        HTML.
+                        <br>
+                    </li>
+                    <li>&lt;style&gt; Etiqueta de estilo usada para escribir CSS en línea. <br></li>
+                    <br>
+                </ul>
+
+                <b>
+                    <h4>Secuencias de comandos:</h4>
+                </b>
+
+                <ul>
+                    <br>
+                    <li>&lt;script&gt; Define ya sea un script interno o un enlace hacia un script externo. El
+                        lenguaje de
+                        programación es JavaScript <br></li>
+                    <li>&lt;noscript&gt; Define un contenido alternativo a mostrar cuando el navegador no
+                        soporta
+                        scripting.
+                        <br>
+                    </li>
+
+                </ul>
+
+                <br>
+                <h4>Secciones:</h4>
+                </br>
+
+                <ul>
+                    <li>&lt;body&gt; Incluye el contenido principal de un documento HTML. Solo hay un elemento
+                        &lt;body&gt;
+                        en un documento <br></li>
+                    <li>&lt;section&gt; Define una sección en un documento. <br></li>
+                    <li>&lt;nav&gt; Define una sección que solamente contiene enlaces de navegación. <br></li>
+                    <li>&lt;article&gt; Define contenido autónomo que podría existir independientemente del
+                        resto
+                        del
+                        contenido. <br></li>
+                    <li>&lt;aside&gt; Define algunos contenidos vagamente relacionados con el resto del
+                        contenido de
+                        la
+                        página. Si es removido, el contenido restante seguirá teniendo sentido. <br></li>
+                    <li>&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; Los elemento de
+                        cabecera
+                        implementan seis niveles de cabeceras de documentos; &lt;h1&gt; es la de mayor y
+                        &lt;h6&gt;
+                        es la de
+                        menor impotancia. Un elemento de cabecera describe brevemente el tema de la sección que
+                        introduce.
+                        <br>
+                    </li>
+                    <li>&lt;header&gt; Define la cabecera de una página o sección. Usualmente contiene un
+                        logotipo,
+                        el
+                        título del sitio Web y una tabla de navegación de contenidos. <br></li>
+                    <li>&lt;footer&gt; Define el pie de una página o sección. Usualmente contiene un mensaje de
+                        derechos de
+                        autoría, algunos enlaces a información legal o direcciones para dar información de
+                        retroalimentación. <br></li>
+                    <li>&lt;address&gt; Define una sección que contiene información de contacto. <br></li>
+                    <li>&lt;main&gt; Define el contenido principal o importante en el documento. Solamente
+                        existe un
+                        elemento &lt;main&gt;en el documento. <br></li>
+                </ul>
+
+                <br>
+                <h4>Agrupación de contenido:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;p&gt; Define una parte que debe mostrarse como un párrafo. <br></li>
+                    <li>&lt;hr&gt; Introduce una separción entre parrafos de una sección o articulo o cualquier
+                        contenido.
+                        <br>
+                    </li>
+                    <li>&lt;pre&gt; Indica que su contenido esta preformateado y que este formato debe ser
+                        preservado. <br></li>
+                    <li>&lt;blockquote&gt; Incluye un contenido citado desde otra fuente. <br></li>
+                    <li>&lt;ol&gt; Define una lista ordenada de artículos. <br></li>
+                    <li>&lt;ul&gt; Define una lista de artículos sin orden. <br></li>
+                    <li> &lt;li&gt; Define un artículo de una lista ennumerada. <br></li>
+                    <li>&lt;dl&gt; Define una lista de definiciones, es decir, una lista de términos y sus
+                        definiciones
+                        asociadas. <br></li>
+                    <li>&lt;dt&gt; Representa un término definido por el siguiente &lt;dd&gt;. <br></li>
+                    <li>&lt;dd&gt; Representa la definición de los terminos listados antes que él. <br></li>
+                    <li>&lt;figure&gt; Representa una figura ilustrada como parte del documento. <br></li>
+                    <li>&lt;figcaption&gt; Representa la leyenda de una figura. <br></li>
+                    <li>&lt;div&gt; Incluye un contenedor genérico sin ningún significado especial. <br></li>
+                </ul>
+
+                <br>
+                <h4>Semántica a nivel de texto:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;a&gt; Incluye un hiperenlace, enlazando a otro recurso. <br></li>
+                    <li>&lt;em&gt; Incluye un texto enfatizado, como un acento de intensidad. <br></li>
+                    <li>&lt;strong&gt; Incluye un texto especialmente importante. <br></li>
+                    <li>&lt;small&gt; Incluye un comentario aparte, es decir, textos como un descargo de
+                        responsabilidad o
+                        una nota de derechos de autoría. <br></li>
+                    <li>&lt;s&gt; Incluye contenido que ya no es exacto o relevante. <br></li>
+                    <li>&lt;cite&gt; Incluye el título de una obra. <br></li>
+                    <li>&lt;q&gt; Incluye una cita textual inline. <br></li>
+                    <li>&lt;dfn&gt; Incluye un término cuya definición está contenida en su ancestro más
+                        próximo.
+                        <br>
+                    </li>
+                    <li>&lt;abbr&gt;Representa una abreviación o un acrónimo; la expansión de la abreviatura
+                        puede
+                        ser
+                        representada por el atributo title. <br></li>
+                    <li>&lt;data&gt; Asocia un equivalente legible por máquina a sus contenidos. <br></li>
+                    <li>&lt;time&gt; Incluye un valor de fecha y hora; el equivalente legible por máquina puede
+                        ser
+                        representado en el atributo datetime. <br></li>
+                    <li>&lt;code&gt; Incluye un código de ordenador. <br></li>
+                    <li>&lt;var&gt; Incluye a una variable. <br></li>
+                    <li>&lt;samp&gt; Representa la salida de un programa o un ordenador. <br></li>
+                    <li>&lt;kbd&gt; Representa la entrada de usuario, por lo general desde un teclado, pero no
+                        necesariamente. <br></li>
+                    <li>&lt;sub&gt; &lt;sup&gt; Representan un subíndice y un superíndice, respectivamente. <br>
+                    </li>
+                    <li>&lt;i&gt; Representa un texto en una voz o estado de ánimo alterno, o por lo menos de
+                        diferente
+                        calidad. <br>
+                    </li>
+                    <li>&lt;b&gt; Incluye un texto hacia el cual se llama la atención para propósitos
+                        utilitaros.
+                        <br>
+                    </li>
+                    <li>&lt;u&gt;Representa una anotación no textual sin-articular, como etiquetar un texto como
+                        mal
+                        escrito
+                        o etiquetar un nombre propio en texto en chino. <br></li>
+                    <li>&lt;u&gt;Representa una anotación no textual sin-articular, como etiquetar un texto como
+                        mal
+                        escrito
+                        o etiquetar un nombre propio en texto en chino. <br></li>
+                    <li>&lt;mark&gt; Representa texto resaltado con propósitos de referencia, es decir por su
+                        relevancia en
+                        otro contexto. <br></li>
+                    <li>&lt;ruby&gt; Representa contenidos a ser marcados con anotaciones ruby, recorridos
+                        cortos de
+                        texto
+                        presentados junto al texto. <br></li>
+                    <li>&lt;rt&gt; Representa el texto de una anotación ruby. <br></li>
+                    <li>&lt;rp&gt;Representa los paréntesis alrededor de una anotación ruby, usada para mostrar
+                        la
+                        anotación
+                        de manera alterna por los navegadores que no soporten despliegue estandar para las
+                        anotaciones. <br></li>
+                    <li> &lt;bdi&gt; Representa un texto que debe ser aislado de sus alrededores para el
+                        formateado
+                        bidireccional del texto. Permite incrustar un fragmento de texto con una direccionalidad
+                        diferente o
+                        desconocida. <br></li>
+                    <li>&lt;bdo&gt; Representa la direccionalidad de sus descendientes con el fin de anular de
+                        forma
+                        explícita al algoritmo bidireccional Unicode. <br></li>
+                    <li>&lt;span&gt; Representa texto sin un significado específico. Este debe ser usado cuando
+                        ningún otro
+                        elemento semántico le confiere un significado adecuado, en cuyo caso, provendrá de
+                        atributos
+                        globales como class, lang, o dir. <br></li>
+                    <li>&lt;br&gt; Representa un salto de línea. <br></li>
+                    <li>&lt;wbr&gt; Representa una oportunidad de salto de línea, es decir, un punto sugerido de
+                        envoltura
+                        donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad. <br>
+                    </li>
+                </ul>
+
+                <br>
+                <h4>Ediciones:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;ins&gt; Define una adición en el documento. <br></li>
+                    <li>&lt;del&gt; Define una remoción del documento. <br></li>
+                </ul>
+
+                <br>
+                <h4>Contenido incrustado:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;img&gt; Representa una imagen. <br></li>
+                    <li>&lt;iframe&gt; Representa un contexto anidado de navegación, es decir, un documento HTML
+                        embebido.
+                        <br>
+                    </li>
+                    <li>&lt;embed&gt; Representa un punto de integración para una aplicación o contenido
+                        interactivo
+                        externo
+                        que por lo general no es HTML. <br></li>
+                    <li>&lt;object&gt; Representa un recurso externo, que será tratado como una imagen, un
+                        sub-documento
+                        HTML o un recurso externo a ser procesado por un plugin. <br></li>
+                    <li>&lt;param&gt; Define parámetros para el uso por los plugins invocados por los elementos
+                        &lt;object&gt;. <br></li>
+                    <li>&lt;video&gt; Representa un video, y sus archivos de audio y capciones asociadas, con la
+                        interfaz
+                        necesaria para reproducirlos. <br></li>
+                    <li>&lt;audio&gt; Representa un sonido o stream de audio. <br></li>
+                    <li>&lt;source&gt; Permite a autores especificar recursos multimedia alternativos para los
+                        elementos
+                        multimedia como &lt;video&gt; o &lt;audio&gt;. <br></li>
+                    <li>&lt;track&gt; Permite a autores especificar una pista de texto temporizado para
+                        elementos
+                        multimedia
+                        como &lt;video&gt; o &lt;audio&gt;. <br></li>
+                    <li>&lt;canvas&gt; Representa un área de mapa de bits en el que se pueden utilizar scripts
+                        para
+                        renderizar gráficos como gráficas, gráficas de juegos o cualquier imagen visual al
+                        vuelo.
+                        <br>
+                    </li>
+                    <li>&lt;map&gt; En conjunto con &lt;area&gt;, define un mapa de imagen. <br></li>
+                    <li>&lt;area&gt; En conjunto con &lt;map&gt;, define un mapa de imagen. <br></li>
+                    <li>&lt;svg&gt; Define una imagen vectorial embebida. <br></li>
+                    <li>&lt;math&gt; Define una fórmula matemática. <br></li>
+                </ul>
+
+                <br>
+                <h4>Tablas:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;table&gt; Incluye datos con más de una dimensión. <br></li>
+                    <li>&lt;caption&gt; Incluye el título de una tabla. <br></li>
+                    <li>&lt;colgroup&gt; Incluye un conjunto de una o más columnas de una tabla. <br></li>
+                    <li>&lt;col&gt; Incluye una columna de una tabla. <br></li>
+                    <li>&lt;tbody&gt; Incluye el bloque de filas que describen los datos contretos de una tabla.
+                        <br>
+                    </li>
+                    <li>&lt;thead&gt; Incluye el bloque de filas que describen las etiquetas de columna de una
+                        tabla. <br></li>
+                    <li>&lt;tfoot&gt; Incluye los bloques de filas que describen los resúmenes de columna de una
+                        tabla. <br></li>
+                    <li>&lt;tr&gt; Incluye una fila de celdas en una tabla. <br></li>
+                    <li>&lt;td&gt; Incluye una celda de datos en una tabla. <br></li>
+                    <li>&lt;th&gt; Incluye una celda encabezada en una tabla.<br></li>
+                </ul>
+
+                <br>
+                <h4>Formularios:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;form&gt; Incluye un formulario, consistendo de controles que puede ser enviado a un
+                        servidor
+                        para procesamiento. <br></li>
+                    <li>&lt;fieldset&gt; Incluye un conjunto de controles. <br></li>
+                    <li>&lt;legend&gt; Incluye el título de un &lt;fieldset&gt;. <br></li>
+                    <li>&lt;label&gt; Incluye el título de un control de formulario. <br></li>
+                    <li>&lt;input&gt; Incluye un campo de datos escrito que permite al usuario editar los datos.
+                        <br>
+                    </li>
+                    <li>&lt;button&gt; Incluye un botón. <br></li>
+                    <li>&lt;select&gt; Incluye un control que permite la selección entre un conjunto de
+                        opciones.
+                        <br>
+                    </li>
+                    <li>&lt;datalist&gt; Incluye un conjunto de opciones predefiniddas para otros controles.
+                        <br>
+                    </li>
+                    <li>&lt;optgroup&gt; Incluye un conjunto de opciones, agrupadas lógicamente. <br></li>
+                    <li>&lt;option&gt; Incluye una opción en un elemento &lt;select&gt;, o una sugerencia de un
+                        elemento
+                        &lt;datalist&gt;. <br></li>
+                    <li>&lt;textarea&gt; Incluye un control de edición de texto multi-línea. <br></li>
+                    <li>&lt;keygen&gt; Incluye un control de par generador de llaves. <br></li>
+                    <li>&lt;output&gt; Incluye el resultado de un cálculo. <br></li>
+                    <li>&lt;progress&gt; Incluye el progreso de finalización de una tarea. <br></li>
+                    <li>&lt;meter&gt; Incluye la medida escalar (o el valor fraccionario) dentro de un rango
+                        conocido. <br></li>
+                </ul>
+
+                <br>
+                <h4>Elementos interactivos:</h4>
+                <br>
+
+                <ul>
+                    <li>&lt;details&gt; Incluye un widget desde el que un usuario puede obtener información o
+                        controles
+                        adicionales. <br></li>
+                    <li> &lt;summary&gt; Incluye un resumen, título o leyenda para un elemento &lt;details&gt;
+                        dado.
+                        <br>
+                    </li>
+                    <li>&lt;command&gt; Incluye un comando que un usuario puede invocar. <br></li>
+                    <li>&lt;menu&gt; Incluye una lista de comandos. <br></li> <br>
+                </ul>
+                
+
+
+                <br>
+                <br>
+                <p>
+                    
+                    <span class="emphasized"> Referencias: <br>
+                        <br>
+                        López, M. (n.d.). Qué son las etiquetas HTML? Master SEO
+                        SEM. Retrieved October 24, 2022, from
+                        https://www.masterseosem.com/diccionario-seo-glosario-de-terminos-de-marketing-digital/etiquetas-html<br>
+                        
+                        <br>
+                        Atributos de estilo en HTML. (2017, 12 agosto). unam.mx. http://uapas2.bunam.unam.mx/mtm/insercion_de_imagenes/images/img_37.jpg
+                        <br>
+                    </span>
+
+                </p>
+
+
+            </article>
+        </section>
+    </main>
+
+
+    <footer class="pie_pagina">
+
+        <section class="contenedor">
+
+            <div class="col15">
+                <div class="skype"><img src=>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="skype"><img src="img/skype.png">
+                    <p><b>Skype: Jeyson08</b></p>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="email"><img src="img/email.png">
+                    <p><b>jfnietor@unadvirtual.edu.co</b></p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="calendario"><img src="img/calendario.png">
+                    <p><b>25/10/2022</b></p>
+                </div>
+            </div>
+            <div class="col35">
+                <div class="skype"><img src=>
+                    <p></p>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

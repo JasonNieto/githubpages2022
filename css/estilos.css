@@ -1,0 +1,315 @@
+.encabezado {
+    background-color: #D6D58E;
+    padding: 30px;
+    height: auto;  
+    
+
+}
+.encabezado h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    padding: 10px 10px;
+    letter-spacing: 2.5px;
+    height: 100px;
+
+    text-shadow: 2px 2px 0px white;
+    letter-spacing: 3px;
+}
+
+/*PROGRAMACIÓN PARA EL NAVEGADOR O MENÚ PRINCIPAL*/
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.navegacion {
+    background-color: rgb(219, 242, 38);
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navegacion {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 0%;    
+}
+
+.navegacion ul {
+    list-style: none;
+    text-align: right;
+    line-height: 70px;
+    font-size: 1em;
+    letter-spacing: 1px;
+
+    
+}
+
+.menu>li {
+    position:relative;
+    display:inline-flex;
+    padding: 2 3px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 30px 20px;
+    color: #050505;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    color: #1da396;
+    transition: all .1s;
+    
+    
+
+}
+
+/*PROGRAMACIÓN PARA EL SUBMENÚ*/
+
+.submenu {
+    position: absolute;
+    background-color: #333333;
+    width: 122%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: #DBF227;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 15px;
+
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*PROGRAMACIÓN PARA EL LOGO DE LA PÁGINA*/
+  .logo li a  {
+    color: #005C53;
+    font-size: 75px;
+    line-height: 75px;
+    text-align:left;
+    display: block;
+    text-decoration: none;
+    
+    position:absolute;
+    padding: 0 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    text-shadow: 5px 5px 6px black;
+    letter-spacing: 3px;
+    
+
+}
+
+
+
+
+/*CONTENIDO PRINCIPAL Y LATERAL*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: #9FC131;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    column-gap: 10px;
+
+}
+
+.contenido_principal {
+    background-color: #D6D58E;
+    padding: 30px;
+    grid-column: 2/5;
+    width:fit-content;
+       
+}
+.contenido_principal h3 {
+    color: #050505;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 1px;
+
+    
+
+}
+.contenido_principal h2 {
+    color: #050505;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+.contenido_principal {
+    font-size: 19px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    height: auto;   
+}
+.img-container {
+    display: block;
+    text-align: center;    
+
+}
+.emphasized {
+    font-style: italic;
+}
+
+.contenido_lateral {
+    background-color: #121212;
+    padding: 5px;
+    grid-column: 1/2;
+    
+    height: 100%;
+     
+
+   
+    
+}
+
+
+/*PROGRAMACIÓN PARA EL PIÉ DE PÁGINA*/
+
+
+.pie_pagina {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+
+}
+.pie_pagina .contenedor {
+    background-color: #121212;
+    width: auto;
+    height: 100px;
+    display:flex;
+    margin: auto;
+}
+
+/*CAJA EXTREMO IZQUIERDO*/
+.col15 {
+    background-color: #121212;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+   
+}
+.col15 .skype {
+
+    display: flex;
+    align-items: center;
+    margin:auto;
+}   
+
+.col1 {
+    background-color: #121212;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+   
+}
+.col1 .skype {
+
+    display: flex;
+    align-items: center;
+    margin:auto;
+    
+}
+.col1 img {
+    width: 50px;
+    margin: 15px;
+}
+
+.col1 .skype p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+.col2 {
+    background-color: #121212;
+    width: 25%;
+    height: 70px;
+    margin: auto;
+}
+.col2 .email {
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.col2 img {
+    width: 50px;
+    margin: 15px;
+}
+
+.col2 .email p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.col3 {
+    background-color: #121212;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    
+}
+.col3 .calendario {
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.col3 .calendario p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.col3 img {
+    width: 50px;
+    margin: 15px;
+}
+/*CAJA EXTREMO DERECHO*/
+
+.col35 {
+    background-color: #121212;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    
+}
+.col35 .calendario {
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>
+            Conoce las Etiquetas Básicas de HTML, atributos y valores.
+        </h1>
+    </header>
+
+    <nav class="navegacion">
+        <ul class="logo">
+            <li><a href="">WebCode</a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="submenu">
+                    <li><a href="tema1.html">Etiquetas HTML</a></li>
+                    <li><a href="tema2.html">Atributos</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Recursos Digitales</a>
+                <ul class="submenu">
+                    <li><a href="recurso1.html">Recurso 1</a></li>
+                    <li><a href="recurso2.html">Recurso 2</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Aprendizaje</a>
+                <ul class="submenu">
+                    <li><a href="aprendizaje1.html">Actividad 1</a></li>
+                    <li><a href="aprendizaje2.html">Actividad 2</a></li>
+                </ul>
+            </li>
+
+            <li><a href="acercade.html">Acerca..</a></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor">
+
+        <section class="contenido_lateral">
+            <a class="twitter-timeline" data-width="350" data-height="5000"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+
+        <section class="contenido_principal">
+            <article>
+
+                <article>
+
+                    <br>
+                    <h2>Atributos y Valores</h2>
+                    <br>
+
+
+                    <p>
+                        <br>
+                        Los atributos HTML son valores adicionales que se pueden añadir a las etiquetas para modificar
+                        su
+                        comportamiento, especificando propiedades específicas de cada una de ellas. Así, por ejemplo,
+                        las
+                        etiquetas pueden incluir atributos de color, posición, etc.
+                        Los atributos HTML se usan como una pareja nombre-valor, separados por =, y están escritos
+                        dentro de
+                        la
+                        etiqueta de inicio de un elemento, después del nombre del elemento: &lt;etiqueta
+                        atributo="valor"
+                        &gt;
+                        Contenido&lt;/etiqueta&gt;
+                        Cada etiqueta tiene sus propios atributos disponibles, algunos de ellos específicos y que no son
+                        válidos
+                        para el resto de etiquetas. Además, cada atributo tiene limitado los tipos de valores que se le
+                        pueden
+                        asignar, que si no son válidos son ignorados por el navegador.
+                        Los atributos comunes a todas las etiquetas se dividen en cuatro grupos según su funcionalidad:
+
+                    </p>
+                    <br>
+
+                    <div class="img-container">
+                        <br>
+                        <img src="img/atibutoHTML2.png" height="300" width="600"
+                            alt="Esta imagen muestra los atributos de html"> <br>
+                            <b>atributos y valores HTML</b>
+                    </div> 
+
+                    <br>
+                    <h2>Atributos básicos:</h2>
+                    <br>
+
+                    <p>
+                    <ul>
+                        <li>id = "texto" Establece un identificador único a cada elemento dentro de una página HTML.
+                            <br>
+                        </li>
+                        <li>class = "texto" Establece la clase CSS que se aplica a los estilos del elemento. <br></li>
+                        <li>style = "texto" Establece de forma directa los estilos CSS de un elemento. <br></li>
+                        <li>title = "texto" Establece el título a un elemento (mejora la accesibilidad y los navegadores
+                            lo
+                            muestran
+                            cuando el usuario pasa el ratón por encima del elemento). <br></li>
+
+                    </ul>
+                    </p>
+
+                    <br>
+                    <h4>Aributos para internacionalización:</h4>
+                    <br>
+
+                    <p>
+                    <ul>
+                        <li>lang = "codigo de idioma" Indica el idioma del elemento mediante un código predefinido. <br>
+                        </li>
+                        <li>xml:lang = "codigo de idioma" Indica el idioma del elemento mediante un código predefinido.
+                            <br>
+                        </li>
+                        <li>dir Indica la dirección del texto (útil para los idiomas que escriben de derecha a
+                            izquierda).
+                            <br>
+                        </li>
+                    </ul>
+                    </p>
+
+                    <br>
+                    <h4>Atributos de eventos:</h4>
+                    <br>
+
+                    <p>
+                    <ul>
+                        <li>onblur Deseleccionar el elemento. <br></li>
+                        <li>onchange Deseleccionar un elemento que se ha modificado. <br></li>
+                        <li>onclick Pinchar y soltar el ratón. <br></li>
+                        <li>ondblclick Pinchar dos veces seguidas con el ratón. <br></li>
+                        <li>onfocus Seleccionar un elemento. <br></li>
+                        <li> onkeydown Pulsar una tecla (sin soltar). <br></li>
+                        <li>onkeypress Pulsar una tecla. <br></li>
+                        <li>onkeyup Soltar una tecla pulsada. <br></li>
+                        <li>onload La página se ha cargado completamente. <br></li>
+                        <li>onmousedown Pulsar (sin soltar) un botón del ratón. <br></li>
+                        <li>onmousemove Mover el ratón. <br></li>
+                        <li>onmouseout El ratón "sale" del elemento (pasa por encima de otro elemento). <br></li>
+                        <li>onmouseover El ratón "entra" en el elemento (pasa por encima del elemento). <br></li>
+                        <li>onmouseup Soltar el botón que estaba pulsado en el ratón. <br></li>
+                        <li>onreset Inicializar el formulario (borrar todos sus datos). <br></li>
+                        <li>onresize Se ha modificado el tamaño de la ventana del navegador. <br></li>
+                        <li>onselect Seleccionar un texto. <br></li>
+                        <li>onsubmit Enviar el formulario. <br></li>
+                        <li>onunload Se abandona la página (por ejemplo, al cerrar el navegador). <br></li>
+                    </ul>
+
+                    </p>
+
+                    <br>
+                    <h4>Atributos de foco:</h4>
+                    <br>
+
+                    <p>
+                    <ul>
+                        <li>accesskey = "letra" Establece una tecla de acceso rápido a un elemento HTML. <br></li>
+                        <li>tabindex = "numero" Establece la posición del elemento en el orden de tabulación de la
+                            página.
+                            Su
+                            valor
+                            debe
+                            estar comprendido entre 0 y 32.767. <br></li>
+                        <li>onfocus, onblur Controlan los eventos JavaScript que se ejecutan cuando el elemento obtiene
+                            o
+                            pierde
+                            el
+                            foco. <br></li>
+                    </ul>
+                    </p>
+                    <br>
+                    <div class="img-container">
+                        <br>
+                        <img src="img/atributos_valores_1.png.png" height="250" width="900"
+                            alt="Esta imagen muestra un ejemlo de un atributo de html"> <br>
+                        <b>atributos HTML. </b>
+
+                    </div>
+
+
+                    <p>
+                        <br>
+                        <br>
+                        <span class="emphasized"> Referencias: <br>
+                            <br>
+                            López, M. (n.d.). Qué son las etiquetas HTML? Master SEO
+                            SEM. Retrieved October 24, 2022, from
+                            https://www.masterseosem.com/diccionario-seo-glosario-de-terminos-de-marketing-digital/etiquetas-html
+                            <br>
+                            <br>
+                            Imagen de código HTML. (s. f.). edea.juntadeandalucia.es.
+                            https://edea.juntadeandalucia.es/bancorecursos/file/a81b2676-4b9e-4abf-bfe3-18a1dd1e3259/1/es-an_2020032012_9183042.zip/css11.1.png
+
+
+                        </span>
+
+
+
+                    </p>
+                    <br>
+                </article>
+        </section>
+    </main>
+
+
+    <footer class="pie_pagina">
+
+        <section class="contenedor">
+
+            <div class="col15">
+                <div class="skype"><img src=>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="skype"><img src="img/skype.png">
+                    <p><b>Skype: Jeyson08</b></p>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="email"><img src="img/email.png">
+                    <p><b>jfnietor@unadvirtual.edu.co</b></p>
+                </div>
+            </div>
+            <div class="col3">
+                <div class="calendario"><img src="img/calendario.png">
+                    <p><b>25/10/2022</b></p>
+                </div>
+            </div>
+            <div class="col35">
+                <div class="skype"><img src=>
+                    <p></p>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
